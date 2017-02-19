@@ -19,7 +19,7 @@
     
    ```ruby
      def remove_white_space(str)
-       str.rstrip!
+       str.rstrip!.empty?
      end
      
      word = remove_white_space("Great")
@@ -31,4 +31,4 @@
    
    Put your solution here.
    
- 
+ 3. 
