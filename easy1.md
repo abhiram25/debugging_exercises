@@ -17,18 +17,18 @@
     What is the solution?
     
     
-   ```ruby
-     def remove_white_space(str)
-       str.rstrip!.empty?
-     end
+    ```ruby
+      def remove_white_space(str)
+        str.rstrip!.empty?
+      end
      
-     word = remove_white_space("Great")
+      word = remove_white_space("Great")
      
-     puts word
-   ```
+      puts word
+    ```
    
-   What is the problem?
+    What is the problem?
    
-   Put your solution here.
+    Put your solution here.
    
  3. 
