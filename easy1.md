@@ -6,7 +6,7 @@
     ```ruby
       loop do
         random_number = rand(10)
-        break until random_number == 10
+        break if random_number == 10
       end
     ```
 
