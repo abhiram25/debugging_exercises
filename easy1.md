@@ -3,12 +3,12 @@
    
    Do not change the number after the `==` operator.
 
-   ```ruby
-     loop do
-       random_number = rand(10)
-       break until random_number == 10
-     end
-   ```
+    ```ruby
+      loop do
+        random_number = rand(10)
+        break until random_number == 10
+      end
+    ```
 
 2.  On line 7, when word is printed, the output is `nil` instead of printing "great". 
 
