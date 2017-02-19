@@ -31,4 +31,20 @@
    
     Put your solution here.
    
-3. 
+3. We want to check if a single lowercase letter is covered within the `("a".."z")` range.
+   
+   If multiple letters are added as an argument, we want it to return false.
+   
+   Identify the problem and modify the code to where the first line of code evalutes to true
+   and the second line of code evaluates to false.
+   
+   DO NOT change the arguments in the parameters or the range.
+   
+   
+   ```ruby
+      ("a".."z").cover?("z") => true
+      ("a".."z").cover?("zz") => true
+   ```
+   
+4. 
+   
