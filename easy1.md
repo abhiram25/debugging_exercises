@@ -53,7 +53,9 @@
     counter = 0
 
     loop do
-      if array[counter].even?
+      number = array[counter]
+
+      if number.even?
         puts number
       else
         counter += 1
