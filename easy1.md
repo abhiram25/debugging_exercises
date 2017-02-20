@@ -43,7 +43,7 @@
    
    ```ruby
       ("a".."z").cover?("z") => true
-      ("a".."z").cover?("zz") => true
+      ("a".."z").cover?("ef") => true
    ```
    
 4.  
